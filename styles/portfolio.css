@@ -26,6 +26,11 @@ h2 {
   font-size: 45px;
   font-weight: normal;
 }
+.line-break {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
 .btn-branding {
   text-decoration: none;
   background: #f8b595;
@@ -39,5 +44,9 @@ h2 {
 @media (max-width: 900px) {
   h2 {
     font-size: 44px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
   }
 }
