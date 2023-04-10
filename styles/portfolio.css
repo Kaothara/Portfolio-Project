@@ -26,7 +26,6 @@
 .line-break {
   font-size: 30px;
   text-align: center;
-  text-decoration: underline;
 }
 h4 {
   font-family: var(--default-font-family);
@@ -43,8 +42,35 @@ h4 {
 }
 
 @media (max-width: 900px) {
+  .hero {
+    padding: 100px 20px;
+  }
+  .hero h1 {
+    font-size: 32px;
+    line-height: 1;
+  }
+  .hero p {
+    font-size: 28px;
+  }
   h2 {
     font-size: 44px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .about-section-content h1 {
+    font-size: 25px;
+  }
+  .about-section-content h2 {
+    font-size: 18px;
+  }
+  .nav-bar h3 {
+    font-size: 12px;
+    display: inline;
+  }
+  .nav-bar li {
+    font-size: 12px;
+    display: inline;
   }
   .project-description {
     padding: 0;
