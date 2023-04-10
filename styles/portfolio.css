@@ -64,12 +64,15 @@ h4 {
   .about-section-content h2 {
     font-size: 18px;
   }
+  .work-image {
+    max-width: 250px;
+  }
   .nav-bar h3 {
     font-size: 12px;
     display: inline;
   }
   .nav-bar li {
-    font-size: 12px;
+    font-size: 10px;
     display: inline;
   }
   .project-description {
